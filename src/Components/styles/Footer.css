@@ -1,0 +1,17 @@
+.card-footer{
+    background-color: #0a682e;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.box{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    width: 425px;
+
+}

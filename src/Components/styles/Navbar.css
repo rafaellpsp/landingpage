@@ -1,0 +1,40 @@
+.card-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a682e;
+    height: 70px;
+    width: 100%;
+    padding: 7px;
+}
+.card-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    height: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.li-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.li-nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+.li-nav a:hover {
+    text-decoration: none;
+    color: #f05a03;
+}
