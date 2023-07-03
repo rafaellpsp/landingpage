@@ -1,7 +1,7 @@
 .card-navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #0a682e;
+    background-color: #264653;
     height: 70px;
     width: 100%;
     padding: 7px;
@@ -13,7 +13,11 @@
     height: 100%;
 }
 .logo{
-    height: 80px;
+    height: 65px;
+    transition: 1s;
+}
+.logo:hover{
+    height: 70px;
 }
 .nav{
     display: flex;
@@ -33,8 +37,9 @@
 .li-nav a {
     text-decoration: none;
     color: #FFF;
+    transition: 1s;
 }
 .li-nav a:hover {
     text-decoration: none;
-    color: #f05a03;
+    color: #E9C46A;
 }
