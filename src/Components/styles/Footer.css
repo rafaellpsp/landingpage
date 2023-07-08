@@ -1,17 +1,25 @@
-.card-footer{
-    background-color: #F4A261;
-    height: 150px;
+.footer{
+    height: 200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 7px;
+    padding: 5px;
+    color: #797777;
+    font-size: 11pt;
+    background-color: #03071E;
 }
-.box{
-    background-color: #FFF;
+.box-footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    border-radius: 5px;
-    width: 425px;
-
+    flex-direction: column;
+    width: 33%;
+    margin: 4px;
+    padding: 5px;
+}
+.card-text{
+    height: 20%;
+}
+.card-content-footer{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
 }

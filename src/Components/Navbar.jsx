@@ -1,18 +1,20 @@
-import logo from '../img/logo.png'
 import './styles/Navbar.css'
 const Navbar = () => {
     return (
-        <div className="card-navbar">
-            <div className="card-logo">
-                <a href="/"><img className='logo' src={logo} alt="logo" /></a>
+        <header className="header">
+            <div className='card-logo'>
+                <h3>WEBSITE</h3>
             </div>
-            <nav className='nav'>
-                <ul className='ul-nav'>
-                    <li className='li-nav'><a href='#'>Sobre</a></li>
-                    <li className='li-nav'><a href='#'>Fale conosco</a></li>
-                </ul>
-            </nav>
-        </div>
+            <div className="card-nav">
+                <div className="card-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
     )
 }
 export default Navbar;

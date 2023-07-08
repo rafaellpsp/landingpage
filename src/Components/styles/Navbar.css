@@ -1,45 +1,40 @@
-.card-navbar{
+.header{
+    background-color: #03071E;
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #264653;
-    height: 70px;
-    width: 100%;
-    padding: 7px;
+    align-items: center;
+    color: #FFF;
+    padding: 10px;
+    border-bottom: solid 2px #FFF;
 }
 .card-logo{
+    width: 30%;
+}
+.card-nav{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+.card-menu ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
-.logo{
-    height: 65px;
-    transition: 1s;
+.card-menu li{
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
 }
-.logo:hover{
-    height: 70px;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-.ul-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.li-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-}
-.li-nav a {
+.card-menu a{
     text-decoration: none;
     color: #FFF;
-    transition: 1s;
+    transition: 0.5s;
 }
-.li-nav a:hover {
+.card-menu a:hover{
     text-decoration: none;
-    color: #E9C46A;
+    color: #F48C06;
 }
