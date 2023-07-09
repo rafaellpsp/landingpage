@@ -21,5 +21,10 @@ html
 #root{
   background-color: rgb(214, 127, 14);
   display: flex;
-  max-width: 100%;
+}
+
+@media screen and (max-width:1371px){
+  *{
+    background-color: aquamarine;
+  }
 }

@@ -37,4 +37,5 @@
 .card-menu a:hover{
     text-decoration: none;
     color: #F48C06;
+    cursor: pointer;
 }
