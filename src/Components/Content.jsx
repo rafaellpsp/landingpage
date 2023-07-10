@@ -6,6 +6,13 @@ import img4 from '../img/img4.jpg'
 import img5 from '../img/img5.jpg'
 
 const Content = () => {
+    
+    const desenvolvimento = (e)=>{
+        e.preventDefault()
+        
+        alert("Acalma o coração, estamos em desenvolvimento!!")
+    }
+
     return (
         <div className="card-content">
             <div className="banner banner-1">
@@ -52,7 +59,7 @@ const Content = () => {
                         <input className='fc-input' type="text" placeholder='Nome' />
                         <input className='fc-input' type="email" placeholder='E-mail' />
                         <textarea className='fc-textearea' type="text" name="" id="" cols="30" rows="10"></textarea>
-                        <button className='fc-btn' type='submit'>Enviar</button>
+                        <button onClick={desenvolvimento} className='fc-btn' type='submit'>Enviar</button>
                     </form>
                 </div>
             </div>
