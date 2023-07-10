@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     const contato = ()=>{
-        let obj =document.getElementById("teste").scrollIntoView();
+        let obj =document.getElementById("contato").scrollIntoView({behavior:"smooth"});
     }
 
     return (

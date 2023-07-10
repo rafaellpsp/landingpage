@@ -9,7 +9,7 @@ const Content = () => {
     
     const desenvolvimento = (e)=>{
         e.preventDefault()
-        
+
         alert("Acalma o coração, estamos em desenvolvimento!!")
     }
 
@@ -47,7 +47,7 @@ const Content = () => {
                     <img className="img" src={img4} alt="img4" />
                 </div>
             </div>
-            <div id='teste' className=" banner card-fale-conosco">
+            <div id='contato' className=" banner card-fale-conosco">
                 <div className="banner-img">
                     <img className="img" src={img5} alt="img5" />
                 </div>
