@@ -11,7 +11,7 @@ const Navbar = () => {
         setTimeout(() => {
             document.getElementById('home').className = 'header'
             document.getElementById('content').className = 'card-content'
-        }, 10000)
+        }, 7000)
     })
 
     return (
