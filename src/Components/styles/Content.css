@@ -2,6 +2,11 @@
     background-color:#9D0208;
     border-bottom: solid 2px #FFF;
 }
+.card-content2{
+    background-color:#9D0208;
+    border-bottom: solid 2px #FFF;
+    margin-top: 100px;
+}
 .banner{
     height: 500px;
     max-width: 100%;

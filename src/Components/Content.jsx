@@ -14,7 +14,7 @@ const Content = () => {
     }
 
     return (
-        <div className="card-content">
+        <div id='content' className="card-content">
             <div className="banner banner-1">
                 <div className="banner-img banner-img-1">
                     <img className="img" src={img1} alt="img1" />

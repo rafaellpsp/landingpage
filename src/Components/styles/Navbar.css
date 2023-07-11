@@ -8,13 +8,24 @@
     color: #FFF;
     padding: 10px;
     border-bottom: solid 2px #FFF;
+    transition: 3s;
 }
-.card-logo{
-    width: 30%;
+.header2{
+    background-color: #03071E;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    padding: 10px;
+    border-bottom: solid 2px #FFF;
+    position: fixed;
+    transition: 5s;   
 }
+
 .card-nav{
     display: flex;
-    width: 70%;
     justify-content: flex-end;
     align-items: center;
     padding: 20px;

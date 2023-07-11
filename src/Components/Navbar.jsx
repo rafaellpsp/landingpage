@@ -1,29 +1,30 @@
+import { useState } from 'react'
 import './styles/Navbar.css'
+
 const Navbar = () => {
 
-    const home = ()=>{
-        let obj =document.getElementById("home").scrollIntoView();
-    }
+    window.addEventListener("scroll", () => {
 
-    const sobre = ()=>{
-        let obj =document.getElementById("sobre").scrollIntoView();
-    }
+        document.getElementById('home').className = 'header2'
+        document.getElementById('content').className = 'card-content2'
 
-    const contato = ()=>{
-        let obj =document.getElementById("contato").scrollIntoView({behavior:"smooth"});
-    }
+        setTimeout(() => {
+            document.getElementById('home').className = 'header'
+            document.getElementById('content').className = 'card-content'
+        }, 10000)
+    })
 
     return (
-        <header id='home' className="header">
+        <header id='home' className='header'>
             <div className='card-logo'>
                 <h3>WEBSITE</h3>
             </div>
             <div className="card-nav">
                 <div className="card-menu">
                     <ul>
-                        <li><a onClick={home}>Home</a></li>
-                        <li><a onClick={contato}>Contato</a></li>
-                        <li><a onClick={sobre}>Sobre</a></li>
+                        <li><a href='#content'>Home</a></li>
+                        <li><a href='#contato'>Contato</a></li>
+                        <li><a href='#sobre' >Sobre</a></li>
                     </ul>
                 </div>
             </div>
